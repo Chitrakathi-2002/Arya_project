@@ -1,0 +1,27 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Storage and logs
+storage/logs/*.log
+storage/cache/*
+!storage/cache/.gitkeep
+!storage/logs/.gitkeep
+
+# Uploaded media (optional: ignore actual uploaded user media, keep folder structure)
+uploads/services/*
+uploads/products/*
+uploads/testimonials/*
+!uploads/services/.gitkeep
+!uploads/products/.gitkeep
+!uploads/testimonials/.gitkeep
+!uploads/.htaccess
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
